@@ -1,0 +1,604 @@
+html {
+    scroll-behavior: smooth;
+    max-width: 1920px;
+    overflow-x:hidden;
+
+}
+body {
+    margin:0;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    color: #ff4444;
+    
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: auto;
+}
+.intro {
+    max-width: 1920px;
+    max-height: 465px;
+    min-width: 1920px;
+    min-height: 465px;
+        top: 50%;
+    left: 50%;
+    width: 1920px;
+    height: 465px;
+    background: url(../image/Slice_6.png)
+}
+
+.pc {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 25px;
+    
+    
+}
+.logo {
+    width: 206px;
+    height: 40px;
+    color: #ff4444;
+    font-family: Lobster;
+    font-size: 53px;
+    font-weight: 400;
+    margin-left: 93px;
+    margin-top: 11px;
+    position: absolute;
+    text-decoration: none;
+}
+.stext {
+    position: absolute;
+    width: 231px;
+    height: 19px;
+    color: #ff4444;
+    font-family: "Source Sans Pro"; 
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 73px;
+    margin-top: 63px;
+    text-decoration: none;
+}
+.logo:hover {
+    color: #fff;
+    cursor: pointer;
+}
+.stext:hover {
+    cursor: pointer;
+    color: #fff;
+}
+.fon {
+
+background: url(../image/Slice_3.png
+) ;
+width: 1920px;
+height: 350px;
+    margin: auto;
+}
+.shadow {
+    position: absolute;
+    background: url(../image/Shadow.png);
+    width: 1240px;
+    height: 465px;
+    
+    
+}
+
+.first {
+    width: 1920px;
+    max-height: none;
+}
+
+.want {
+    position: absolute;
+    width: 477px;
+    height: 34px;
+    color: #ff4242;
+    font-family: "Source Sans Pro";
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 192px;
+    margin-top: 196px;
+}
+.me {
+    position: absolute;
+    width: 183px;
+    height: 27px;
+    color: #ff4242;
+    font-family: "Source Sans Pro";
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 471px;
+    margin-top: 242px;
+}
+.buy {
+    position: absolute;
+    margin-left: 192px;
+    margin-top: 298px;
+}
+.computer {
+    position: absolute;
+    margin-left: 859px;
+    margin-top: 127px;
+}
+.garantue {
+    position: absolute;
+    margin-left: 643px;
+    margin-top: 82px;
+}
+.top {
+    position: absolute;
+    margin-left: 890px;
+    margin-top: 82px;
+}
+.service {
+    position: absolute;
+    margin-left: 1155px;
+    margin-top: 82px;
+}
+.why {
+    position: absolute;
+    width: 326px;
+    height: 53px;
+    color: #ff4242;
+    font-family: "Source Sans Pro";
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 798px;
+    margin-top: -0px
+}
+
+.garant {
+    position: absolute;
+    width: 208px;
+    height: 73px;
+    color: #ff4242;
+    font-family: "Source Sans Pro";
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 601px;
+    margin-top: 265px;
+    text-align:  center;
+    
+}
+.topic {
+    position: absolute;
+    text-align:  center;
+    width: 137px;
+    height: 69px;
+    color: #ff4242;
+    font-family: "Source Sans Pro";
+    font-size: 33px;
+    font-weight: 700;
+    margin-left: 896px;
+    margin-top: 265px;
+}
+.servic {
+    position: absolute;
+    width: 205px;
+height: 62px;
+color: #ff4242;
+font-family: "Source Sans Pro";
+font-size: 31px;
+font-weight: 700;
+text-align:  center;
+margin-left: 1146px;
+margin-top: 265px;
+    
+}
+.catalog {
+    margin: 0 ;
+    background: url(../image/fon2.png);
+    width: 1920px;
+    height: 1185px;
+
+
+}
+.works {
+    position: absolute;
+    margin-left: 773px;
+    width: 374px;
+    height: 55px;
+    color: #ff4242;
+    font-family: "Source Sans Pro";
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.pc1 {
+    position: absolute;
+
+}
+
+
+.pc4 {
+    position: absolute;
+;
+}
+.worki {
+    position: absolute;
+    text-decoration: none;
+    color: #ff4444;
+    font-family: "Source Sans Pro"; 
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 906px;
+    margin-top: 63px;
+    
+}
+.why1 {
+     position: absolute;
+    text-decoration: none;
+    color: #ff4444;
+    font-family: "Source Sans Pro"; 
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 63px;
+    margin-left: 859px;
+}
+.scroll-up {
+    left: 0;
+    bottom: 0;
+    width: 130px;
+    height: 100%;
+    
+    position: fixed;
+    cursor: pointer;
+    background-color: #fcfcfc;
+    color: #aaa ;
+    font-size: 13px;
+    text-align: center;
+    padding: 15px;
+    transition: background .2s ease;
+    display none;
+    z-index:
+    
+    
+}
+
+.scroll-up:hover {
+    background-color: #eeeeee;
+    color: #77777777
+}
+.blocimg {
+    position: absolute;
+    margin-left: 449px;
+    margin-top: 106px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background: black;
+
+}
+.blocimg img {
+    width: 100%;
+    transition: .5s;
+}
+    .dws:hover .blocimg img{
+        transform: rotate(-10deg) scale(1.3);
+        filter: blur(1px);
+        opacity: .5;
+    }
+.bloctext {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+
+    
+}
+
+.text {
+    color: white;
+    text-transform: uppercase;
+    padding: 0 20px;
+    opacity: 0;
+    
+}
+.text h2{
+    font-size: 55px;
+    text-align: center;
+    
+}
+.text h2 span {
+    color: orange;
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+} 
+.text p {
+    position: absolute;
+    top: 50%;
+    width: 320px;
+    font-size: 25px;
+    border-left: 4px solid orange;
+    padding: 0 10px;
+}
+.bloctext::before,
+.bloctext::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.bloctext::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: scale(0,1)
+}
+.bloctext::after {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: scale(1,0);
+    
+}
+.dws:hover .bloctext::before,
+.dws:hover .bloctext::after {
+    transform:  scale(1,1)
+}
+.dws:hover .text {
+    opacity: 1;
+    transition: 1s
+}
+
+.blocimg1 {
+    position: absolute;
+    margin-left: 1070px;
+    margin-top: 106px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background: black;
+
+}
+.blocimg1 img {
+    width: 100%;
+    transition: .5s;
+}
+    .dws1:hover .blocimg1 img{
+        transform: rotate(-10deg) scale(1.3);
+        filter: blur(1px);
+        opacity: .5;
+    }
+.bloctext1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+
+    
+}
+
+.text1 {
+    color: white;
+    text-transform: uppercase;
+    padding: 0 20px;
+    opacity: 0;
+    
+}
+.text1 h2{
+    font-size: 55px;
+    text-align: center;
+    
+}
+.text1 h2 span {
+    color: orange;
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+} 
+.text1 p {
+    position: absolute;
+    top: 50%;
+    width: 320px;
+    font-size: 25px;
+    border-left: 4px solid orange;
+    padding: 0 10px;
+}
+.bloctext1::before,
+.bloctext1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.bloctext1::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: scale(1,0)
+}
+.bloctext1::after {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: scale(0,1);
+    
+}
+.dws1:hover .bloctext1::before,
+.dws1:hover .bloctext1::after {
+    transform:  scale(1,1)
+}
+.dws1:hover .text1 {
+    opacity: 1;
+    transition: 1s
+}
+
+.blocimg2 {
+    position: absolute;
+    margin-left: 449px;
+    margin-top: 556px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background: black;
+
+}
+.blocimg2 img {
+    width: 100%;
+    transition: .5s;
+}
+    .dws2:hover .blocimg2 img{
+        transform: rotate(-10deg) scale(1.3);
+        filter: blur(1px);
+        opacity: .5;
+    }
+.bloctext2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+
+    
+}
+
+.text2 {
+    color: white;
+    text-transform: uppercase;
+    padding: 0 20px;
+    opacity: 0;
+    
+}
+.text2 h2{
+    font-size: 55px;
+    text-align: center;
+    
+}
+.text2 h2 span {
+    color: orange;
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+} 
+.text2 p {
+    position: absolute;
+    top: 50%;
+    width: 320px;
+    font-size: 25px;
+    border-left: 4px solid orange;
+    padding: 0 10px;
+}
+.bloctext2::before,
+.bloctext2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.bloctext2::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: scale(0,1)
+}
+.bloctext2::after {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: scale(0,1);
+    
+}
+.dws2:hover .bloctext2::before,
+.dws2:hover .bloctext2::after {
+    transform:  scale(1,1)
+}
+.dws2:hover .text2 {
+    opacity: 1;
+    transition: 1s
+}
+
+
+.blocimg3 {
+    position: absolute;
+    margin-left: 1070px;
+    margin-top: 556px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background: black;
+
+}
+.blocimg3 img {
+    width: 100%;
+    transition: .5s;
+}
+    .dws3:hover .blocimg3 img{
+        transform: rotate(-10deg) scale(1.3);
+        filter: blur(1px);
+        opacity: .5;
+    }
+.bloctext3 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+
+    
+}
+
+.text3 {
+    color: white;
+    text-transform: uppercase;
+    padding: 0 20px;
+    opacity: 0;
+    
+}
+.text3 h2{
+    font-size: 55px;
+    text-align: center;
+    
+}
+.text3 h2 span {
+    color: orange;
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+} 
+.text3 p {
+    position: absolute;
+    top: 50%;
+    width: 320px;
+    font-size: 25px;
+    border-left: 4px solid orange;
+    padding: 0 10px;
+}
+.bloctext3::before,
+.bloctext3::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.bloctext3::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: scale(1,0)
+}
+.bloctext3::after {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: scale(1,0);
+    
+}
+.dws3:hover .bloctext3::before,
+.dws3:hover .bloctext3::after {
+    transform:  scale(1,1)
+}
+.dws3:hover .text3 {
+    opacity: 1;
+    transition: 1s
+}
+*/
