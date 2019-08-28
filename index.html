@@ -6,9 +6,20 @@
     <link rel="stylesheet" href="css/Style.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro&display=swap&subset=cyrillic-ext" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+  $(window).on('load', function () {
+    $preloader = $('.loaderArea'),
+      $loader = $preloader.find('.loader');
+    $loader.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+  });
+</script>
     <script src="js/main.js"></script>
 </head>
 <body>
+    <div class="loaderArea">
+   <div class="loader"></div>
+    </div>
 
     <a href="#up"><div class="scroll-up"><h1 class="naverh">Наверх</h1></div></a>
 
